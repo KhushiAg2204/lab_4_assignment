@@ -2,6 +2,7 @@ class FlightTable:
     def _init_(self):
         self.data = []
 
+
     def add_entry(self, p_id, process, start_time, priority):
         self.data.append({'P_ID': p_id, 'Process': process, 'Start Time': start_time, 'Priority': priority})
 
